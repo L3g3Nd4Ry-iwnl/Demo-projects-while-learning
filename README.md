@@ -20,3 +20,11 @@ This course helped me to get a grasp on the basics of Vue.js. It essentialy had 
 > 2. npm run backend - in a separate terminal
 > 3. npm run serve - in a separate terminal
 ---
+## Web-Development-SmartKnower
+
+This was a paid internship with SmartKnower in which I learned on the basics of Web development. I was expected to complete 2 projects,
+1. Major Project
+> This project was done by myself and [Tharun Kumar A.](https://github.com/TharunKumar107) This is a live HTML, CSS, Js editor. This project was simple since our knowledge on the tech stack was little back then. The tech stack being HTML, CSS, Js. It has an home page, about page and an editor.
+
+2. Minor Project
+> A simple page on GTA 5, definitely not on the awesome level but something I did back then with very less knowledge. The tech stack being HTML, CSS.

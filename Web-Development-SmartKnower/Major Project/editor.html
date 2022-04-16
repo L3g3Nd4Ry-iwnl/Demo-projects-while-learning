@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/92415b0e95.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="editor_style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="headerbg">
+            <div class="d-flex flex-row">
+                <i style="margin-top: 150px;font-size: 2.5em;" class="far fa-file-code p-2"></i>
+                <h3 style="margin-top: 150px;">Live Code Editor</h3>
+            </div>
+            <header>
+                <ul style="margin-top: 50px;margin-right: 45px; list-style: none;">
+                    <li>
+                        <button class="btn" onclick="javascript:document.location='index.html'">
+                            <span style="font-size: 20px;">Home</span>
+                        </button>
+                    </li>
+                    <br>
+                    <li>
+                        <button class="btn" onclick="javascript:document.location='about.html'">
+                            <span style="font-size: 20px;">About Us</span>
+                        </button>
+                    </li>
+                </ul>
+            </header>
+        </div>
+        <div class="code-area m-2">
+            <textarea id="htmlCode" placeholder="HTML Code" oninput="showPreview()"></textarea>
+            <textarea id="cssCode" placeholder="CSS Code" oninput="showPreview()"></textarea>
+            <textarea id="jsCode" placeholder="JavaScript Code" oninput="showPreview()"></textarea>				
+        </div>
+        <div class="preview-area">
+            <iframe id="preview-window"></iframe>
+        </div>
+        <footer style="text-align: center;background-image: linear-gradient(to bottom right,#30e3ca,#11999e,#40514e);">
+            <p style="margin-top: 350px;">© Copyright 2021 Tharun Kumar & Aadhith S</p>
+        </footer>
+        <!-- Bootstrap and JS scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
